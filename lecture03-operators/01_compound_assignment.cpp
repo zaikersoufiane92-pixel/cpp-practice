@@ -3,13 +3,14 @@ using namespace std;
 
 int main()
 {
-    int a = 2, b = 3, c = 4;
+    //question (a) :
+    int m;
+    int y1;
+    int y2;
+    int x1;
+    int x2;
+    m = (y1 - y2) / (x1 - x2);
 
-    a += b *= c;
-
-    cout << "a = " << a << endl;
-    cout << "b = " << b << endl;
-    cout << "c = " << c << endl;
 
     return 0;
 }
